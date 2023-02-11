@@ -8,16 +8,18 @@ import SocialLinks from './components/SocialLinks'
 import About from './components/About'
 import Portfolio from './components/Portfolio'
 import Footer from './components/Footer'
+import ToolsAndTechnologies from './components/ToolsAndTechnologies'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className="relative">
+    <div className="">
       <NavBar/>
       <Home/>
       <SocialLinks/>
       <About/>
+      <ToolsAndTechnologies/>
       <Portfolio/>
       <Footer/>
     </div>

@@ -6,7 +6,7 @@ import HeroImageFloating from './HeroImageFloating'
 const Home = () => {
   return (
     // <div name="home" className='h-screen w-full'>
-    <div name="home" className=' mx-4 mt-4 '>
+    <div name="home" className=' mx-4 pt-20'>
 
       <div className=' max-w-screen-lg mx-auto'>
         {/* <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row'> */}
