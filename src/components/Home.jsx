@@ -1,26 +1,22 @@
 import React from 'react'
-import HeroImage from '../assets/heroImage.png'
 import { HiArrowNarrowRight } from 'react-icons/hi'
 import Terminal from './Terminal'
+import HeroImageFloating from './HeroImageFloating'
 
 const Home = () => {
   return (
     // <div name="home" className='h-screen w-full'>
-    <div name="home" className='bg-sky-400 mx-4 mt-4 '>
+    <div name="home" className=' mx-4 mt-4 '>
 
-      <div className='bg-purple-400 max-w-screen-lg mx-auto'>
+      <div className=' max-w-screen-lg mx-auto'>
         {/* <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row'> */}
-        <div className='md:flex mb-4 '>
-          <div className='md:w-1/2'>
+        <div className='md:flex mb-4 items-center justify-between'>
+          <div className='md:w-1/2 -z-10'>
             <Terminal />
           </div>
 
-          <div>
-            <img
-              src={HeroImage}
-              alt="personal"
-              className='rounded-lg mx-auto w-2/5 md:w-1/2'
-            />
+          <div className=' mt-12 -z-10'>
+            <HeroImageFloating/>
           </div>
         </div>
         <div className='flex flex-col justify-center'>

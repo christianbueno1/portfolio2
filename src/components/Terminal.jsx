@@ -29,7 +29,7 @@ const Terminal = () => {
   }, []);
 
   return (
-    <div className='mb-4 -z-10 '>
+    <div className='mb-4 '>
       <div className="terminal-window h-96">
         <header>
           <div className="button green" />
