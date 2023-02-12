@@ -20,7 +20,7 @@ const Portfolio = () => {
     },
   ]
   return (
-    <div name='portfolio' className=' mx-4 pt-8' >
+    <div name='post & wordpress' className=' mx-4 pt-20' >
       <div className=' max-w-screen-lg mx-auto'>
         <div className='text-center'>
           <h2 className='text-4xl font-bold border-b-4 border-cyan-800 inline'>Post & Wordpress Themes</h2>

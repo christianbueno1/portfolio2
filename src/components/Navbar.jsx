@@ -15,7 +15,11 @@ const NavBar = () => {
     },
     {
       id: 3,
-      link: 'portfolio'
+      link: 'tools & technologies'
+    },
+    {
+      id: 4,
+      link: 'post & wordpress'
     },
     
   ]
@@ -47,7 +51,7 @@ const NavBar = () => {
         {links.map( ({id, link}) => (
           <li key={id}   className='cursor-pointer capitalize font-medium text-amber-400 hover:scale-105 duration-200 hover:text-teal-600'>
             <Link key={id} to={link} smooth={true} duration={500}  onClick={(e) => changeBgColor(e)}>
-              <div key={id} onClick={() => console.log('child link')} className='px-4'>
+              <div key={id} onClick={() => console.log('child link')} className='px-4 text-center'>
                 {link}
               </div>
             </Link>

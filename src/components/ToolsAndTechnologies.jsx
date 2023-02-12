@@ -3,7 +3,7 @@ import React from 'react'
 const ToolsAndTechnologies = () => {
   return (
     // <div className='bg-purple-400 w-full mt-4'>
-    <div className=' mt-4'>
+    <div name='tools & technologies' className=' mt-4 pt-20'>
 
       <div className='max-w-screen-lg mx-auto'>
           <div className=' text-center'>
