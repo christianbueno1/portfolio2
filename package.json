@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@tailwindcss/line-clamp": "^0.4.2",
     "flowbite": "^1.6.3",
     "flowbite-react": "^0.3.8",
     "gsap": "^3.11.4",
