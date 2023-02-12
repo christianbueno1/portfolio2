@@ -1,6 +1,7 @@
 .grid_cards {
     display: grid;
     grid-gap: .75vw;
+    grid-template-columns: repeat(auto-fit, minmax(343px, 1fr)); 
     /* grid-template-columns: repeat(auto-fit, minmax(384px, 1fr));  */
-    grid-template-columns: repeat(auto-fit, 1fr); 
+    /* grid-template-columns: repeat(auto-fit, 1fr);  */
 }
