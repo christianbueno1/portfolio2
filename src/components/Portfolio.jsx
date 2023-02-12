@@ -7,7 +7,7 @@ const Portfolio = () => {
     {
       id: 1,
       imgSrc: './post/wordpress-podman-post.png',
-      title: 'title1 How to create a WordPress containerization environment with podman(a docker alternative) in fedora 36/37 Workstation GNU/Linux ',
+      title: 'How to create a WordPress containerization environment with podman(a docker alternative) in fedora 36/37 Workstation GNU/Linux ',
       info: 'Hello to everyone, today we are going to learn how to create a WordPress containerization environment with podman a docker alternative. We need podman, the WordPress image, and a database image MySQL or MariaDB. First we are going to download the images, using the following command.',
       link: 'https://dev.to/christianbueno1/how-to-create-a-wordpress-containerization-environment-with-podman-in-fedora-36-workstation-gnulinux-2o6k'
     },
@@ -20,7 +20,7 @@ const Portfolio = () => {
     },
   ]
   return (
-    <div name='portfolio' className=' mx-4' >
+    <div name='portfolio' className=' mx-4 pt-8' >
       <div className=' max-w-screen-lg mx-auto'>
         <div className='text-center'>
           <h2 className='text-4xl font-bold border-b-4 border-cyan-800 inline'>Post & Wordpress Themes</h2>
