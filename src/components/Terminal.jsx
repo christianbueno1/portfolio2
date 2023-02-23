@@ -39,7 +39,7 @@ const Terminal = () => {
 
   return (
     <div className='mb-4 '>
-      <div className="terminal-window h-96">
+      <div className="terminal-window h-[464px] sm:h-96">
         <header>
           <div className="button green" />
           <div className="button yellow" />
