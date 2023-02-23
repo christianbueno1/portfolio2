@@ -43,7 +43,8 @@ const NavBar = () => {
   
   return (
     <div name='navbar' className="flex justify-between items-center w-full h-20 fixed top-0 px-4 shadow-md bg-white z-10">
-      <div>
+      <div className='flex items-center'>
+        <img className='w-20 mx-1' src="terminal-logo.png" alt="terminal" />
         <h1 className='text-4xl font-shrikhand '>Christian Bueno</h1>
       </div>
 

@@ -13,7 +13,16 @@ const Terminal = () => {
   useEffect(() => {
     const typed = new Typed(prompt.current, {
       // strings: ["$ I am christian Bueno<br>new line"], // Strings to display
-      strings: ["$ I am Christian Bueno<br>A Web developer, programmer, fronted, backend.Open Source enthusiast.<br><br><strong>Experience</strong>.<br>For scripting BASH or ZSH shell.<br>For containers docker, podman.<br>Linux distribution: Ubuntu, Fedora, Rocky, AlmaLinux, Manjaro.<br>virtualization tools: KVM, libvirt.<br>Server administration."], // Strings to display
+      strings: [`$ I am Christian Bueno<br>
+      A Full Stack Web Developer, Django Developer, Flask Developer, Python Developer, Fronted UI Developer, Backend Developer.<br>
+      Linux server administrator.<br>
+      Containerization Developer.<br>
+      Automation Developer, DevOps engineer<br><br>
+      <strong>Tools.</strong><br>
+      The scripting language, BASH.<br>
+      To control containers, docker, podman.<br>
+      Linux server distribution: Debian, Ubuntu, RHEL, Fedora, Rocky Linux, AlmaLinux.<br>
+      For Virtualization, KVM, libvirt, vagrant.`], // Strings to display
       // Speed settings, try diffrent values untill you get good results
       startDelay: 300,
       typeSpeed: 30,

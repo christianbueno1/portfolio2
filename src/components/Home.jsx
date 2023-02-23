@@ -20,16 +20,23 @@ const Home = () => {
           </div>
         </div>
         <div className='flex flex-col justify-center'>
-          <h2 className='text-4xl sm:text-7xl font-bold'>I'm a Developer</h2>
-          <p className='py-4 max-w-2xl'>I have 4 years in the IT area.
-            I am a web developer.
-            I have server administration knowledge.
-            My language programming is python, java, JavaScript.
-            The database used is MariaDB.
-            The server used is Linux in distributions like Ubuntu, Fedora, Centos, Rocky Linux 9, AlmaLinux 9.
-            I have knowledge in Shell Scripting.
-            I have knowledge in Django Framework.
-            I have ability in containers tools like docker, podman.
+          <h2 className='text-4xl sm:text-7xl font-bold'>I'm a Full Stack Web Developer</h2>
+          <div className='pt-4'>
+            <ul>
+              <li>Django, Flask Developer.</li>
+              <li>Python Developer.</li>
+              <li>Fronted UI Developer.</li>
+              <li>Linux server administrator.</li>
+              <li>Containerization Developer.</li>
+            </ul>
+          </div>
+          <p className='py-4 max-w-2xl'>
+          I have 4 years in the IT area.
+          My language programming are Python, Java, JavaScript, Bash scripting language.
+          The database used is MariaDB.
+          The Linux server distributions used are Ubuntu, Fedora, Centos, Rocky Linux 9, AlmaLinux 9.
+          I have knowledge in Shell Scripting.
+          I have ability in containers tools like docker, podman.
           </p>
           <div>
             <button className='group px-6 py-3 my-2  bg-gradient-to-r from-amber-400 to-amber-200 rounded-lg' >
