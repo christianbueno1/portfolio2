@@ -7,7 +7,7 @@ const HeroImageFloating = () => {
   const heroImgs = useRef([null,null,null]);
 
   useEffect( () => {
-    console.log('heroImgs.current', heroImgs.current);
+    // console.log('heroImgs.current', heroImgs.current);
   
     heroImgs.current.forEach(heroImg => {
   
@@ -21,7 +21,7 @@ const HeroImageFloating = () => {
       moveY(heroImg, -1);
       rotate(heroImg, 1);
   
-      console.log('heroImg', heroImg);
+      // console.log('heroImg', heroImg);
     });
 
 
