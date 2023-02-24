@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from 'react'
 
 const MyCarousel = () => {
 
-  const timer = 5000;
+  const timer = 3000;
   const heroimg = useRef();
   let i = 0;
   const images = [
@@ -27,14 +27,11 @@ const MyCarousel = () => {
   ]
   useEffect(() => {
     const interval = setInterval(() => {
-      heroimg.current.src = images[i]['src'];
-      // console.log('heroImg2', i, images.length, timer, heroimg.current, images[i].src);
+      heroimg.current.src = images[i].src;
       if( i < images.length - 1 ) {
         i++;
-        console.log('true', i);
       } else {
         i = 0;
-        console.log('false', i);
       }
     }, timer);
     return () => clearInterval(interval);
@@ -43,21 +40,10 @@ const MyCarousel = () => {
 
   return (
     <div>
-      {/* <div className="aspect-[3/4] w-80 sm:h-64 xl:h-80 2xl:h-96"> */}
       <div className="aspect-[3/4] w-80" >
-        {/* <Carousel
-          leftControl=" "
-          rightControl=" "
-          indicators={false}
-          
-        > */}
         <div>
-          <img 
-            ref={heroimg}
-            alt="hero"
-          />
+          <img className=' object-cover' ref={heroimg} alt="hero" />
         </div>
-        {/* </Carousel> */}
       </div>
     </div>
   )

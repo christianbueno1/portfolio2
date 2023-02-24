@@ -41,7 +41,7 @@ const Home = () => {
           <div>
             <button className='group px-6 py-3 my-2  bg-gradient-to-r from-amber-400 to-amber-200 rounded-lg' >
               <a href='/resume.pdf' download target='_blank' className='flex items-center' rel='noreferrer'>
-                Resume
+                Resume/Hoja de vida
                 <span className='group-hover:rotate-90 duration-300'>
                   <HiArrowNarrowRight size='25' className='ml-1'></HiArrowNarrowRight>
                 </span>

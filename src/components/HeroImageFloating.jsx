@@ -34,7 +34,7 @@ const HeroImageFloating = () => {
           <div className='grid content-center justify-center'>
             <div className='rounded-xl bg-amber-400 -rotate-12 row-start-1 row-end-2 col-start-1 col-end-2 w-80 aspect-[3/4] m-auto z-0' ref={e => heroImgs.current[1] = e}></div>
             <div className='rounded-xl bg-sky-800 rotate-12 row-start-1 row-end-2 col-start-1 col-end-2 w-80 aspect-[3/4] m-auto z-0' ref={e => heroImgs.current[2] = e}></div>
-            <div className=' rounded-xl row-start-1 row-end-2 col-start-1 col-end2 w-80 aspect-[3/4] m-auto z-0' ref={e => heroImgs.current[0] = e}>
+            <div className=' overflow-hidden bg-slate-400 rounded-xl row-start-1 row-end-2 col-start-1 col-end2 w-80 aspect-[3/4] m-auto z-0' ref={e => heroImgs.current[0] = e}>
               <MyCarousel />
             </div>
           </div>
