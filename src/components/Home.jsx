@@ -28,6 +28,7 @@ const Home = () => {
               <li>Fronted UI Developer.</li>
               <li>Linux server administrator.</li>
               <li>Containerization Developer.</li>
+              <li>Automation Developer, DevOps engineer.</li>
             </ul>
           </div>
           <p className='py-4 max-w-2xl'>
