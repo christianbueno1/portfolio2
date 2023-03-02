@@ -41,8 +41,16 @@ const Home = () => {
           </p>
           <div>
             <button className='group px-6 py-3 my-2  bg-gradient-to-r from-amber-400 to-amber-200 rounded-lg' >
-              <a href='/resume.pdf' download target='_blank' className='flex items-center' rel='noreferrer'>
-                Resume/Hoja de vida
+              <a href='Rezume_christian_bueno_english.pdf' download target='_blank' className='flex items-center' rel='noreferrer'>
+                Resume English
+                <span className='group-hover:rotate-90 duration-300'>
+                  <HiArrowNarrowRight size='25' className='ml-1'></HiArrowNarrowRight>
+                </span>
+              </a>
+            </button>
+            <button className='group px-6 py-3 my-2  bg-gradient-to-r from-amber-400 to-amber-200 rounded-lg sm:ml-8' >
+              <a href='Rezume_christian_bueno_es.pdf' download target='_blank' className='flex items-center' rel='noreferrer'>
+                Hoja de vida Español
                 <span className='group-hover:rotate-90 duration-300'>
                   <HiArrowNarrowRight size='25' className='ml-1'></HiArrowNarrowRight>
                 </span>

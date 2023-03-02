@@ -16,6 +16,7 @@ const About = () => {
             <p className='text-xl mt-5'>
               <strong>As a WordPress specialist</strong>, I offer a wide range of website design services, including the creation of blogs, personal and landing pages, business websites, portfolios, and eCommerce sites. My goal is to help businesses establish a strong online presence by delivering high-quality, customized WordPress websites that meet their unique needs. Whether you're a small business owner, freelancer, or entrepreneur, I have the expertise to create a website that effectively showcases your brand and drives results. From concept to launch, I manage every aspect of the design process, ensuring that your website is delivered on time and within budget. Get in touch with me today to take your online presence to the next level with a custom WordPress website.
             </p>
+            <p className='mt-5'>+593 99 028 8710<br/>Guayaquil, Guayas, Ecuador</p>
         </div>
     </div>
   )
