@@ -66,6 +66,13 @@ const Portfolio = () => {
       link: 'https://demo.creativethemes.com/blocksy/blog/',
       price: '$70 Theme only',
     },
+    {
+      id: 9,
+      imgSrc: './post/zsh-ohmyzsh-p10k-post-hashnode.png',
+      title: 'Como crear un script que instala zsh, oh-my-zsh y powrlevel10k en Linux, Ubuntu, Fedora',
+      info: 'También vamos a identificar si estamos en una distribución Ubuntu o Fedora para usar el administrador de paquetes adecuado.',
+      link: 'https://christianbueno.hashnode.dev/como-crear-un-script-que-instala-zsh-oh-my-zsh-y-powrlevel10k-en-linux-ubuntu-fedora',
+    },
   ]
   return (
     <div name='post & wordpress' className=' mx-4 pt-20' >
