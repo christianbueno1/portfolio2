@@ -81,7 +81,7 @@ const Portfolio = () => {
           <h2 className='text-4xl font-bold border-b-4 border-cyan-800 inline'>Post & Wordpress Themes</h2>
 
         </div>
-        <div className='grid_cards md:grid'>
+        <div className='grid_cards '>
           {cards.map(({id, imgSrc, title, info, link, price}) => (
             <a key={id} target='_blank' href={link}>
               <div key={id} className=" relative max-w-sm mx-auto mt-8">
