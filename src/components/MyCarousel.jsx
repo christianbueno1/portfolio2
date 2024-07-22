@@ -7,23 +7,17 @@ const MyCarousel = () => {
   let i = 0;
   const images = [
     {
-      src: "hero-images/chris-1.jpg"
+      src: "/hero-images/chris-1.jpg"
     },
     {
-      src: "hero-images/chris-2.jpg"
+      src: "/hero-images/chris-2.jpg"
     },
     {
-      src: "hero-images/chris-3.jpg"
+      src: "/hero-images/chris-3.jpg"
     },
     {
-      src: "hero-images/chris-4.jpg"
+      src: "/hero-images/chris-4.jpg"
     },
-    {
-      src: "hero-images/chris-5.jpg"
-    },
-    {
-      src: "hero-images/chris-6.jpg"
-    }
   ]
   useEffect(() => {
     const interval = setInterval(() => {
