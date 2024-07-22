@@ -2,6 +2,7 @@ import React from 'react'
 import { FaGithub, FaLinkedin as FaLLinkedIn } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill} from 'react-icons/bs';
+import resume_christian_bueno_english from '/resume-christian-bueno-english.pdf'
 
 const SocialLinks = () => {
     const links = [
@@ -40,7 +41,7 @@ const SocialLinks = () => {
                 Resume <BsFillPersonLinesFill size={30}></BsFillPersonLinesFill>
                 </>
             ),
-            href: 'Rezume_christian_bueno_english.pdf',
+            href: {resume_christian_bueno_english},
             style: 'rounded-br-lg',
             download: true
         },
